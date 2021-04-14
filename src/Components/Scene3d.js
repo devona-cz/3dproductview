@@ -11,7 +11,6 @@ import  {
   ArcRotateCamera,
   Vector3,
   HemisphericLight,
-  Mesh,
   Color3,
   Tools,
   MeshBuilder,
