@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 .App {
@@ -17,7 +18,7 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
-  background-color: #222;
+  background-color: rgb(0, 0, 0);
 }
 
 .productoption { 
@@ -33,6 +34,7 @@ body {
     width: 100%;
     border: 1px solid #222; ;
     text-transform: uppercase;
+    color: rgb(255, 255, 255);
   }
   .productoption_body {
     overflow: hidden;
@@ -48,4 +50,5 @@ body {
     text-decoration: none;
     padding: 10px 0 10px 0; 
     font-size: 1em;
+    color: rgb(255, 255, 255);
   }

@@ -11,7 +11,7 @@ class App extends Component {
     this.state = {
       optionNames: [ 'frame', 'seat', 'waterbottle', 'handlebars' ],   
       optionValues: [
-        [ 'white', 'red', 'blue', 'green' ],
+        [ 'white', 'red', 'blue', 'green','yellow' ],
         [ 'grey', 'white', 'black' ],
         [ 'grey', 'white', 'black' ],
         [ 'grey', 'white', 'black' ]
