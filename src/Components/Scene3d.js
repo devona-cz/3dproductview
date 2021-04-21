@@ -196,6 +196,7 @@ class Scene3d extends Component {
       // Start the animation loop once the model is loaded
       this.engine.runRenderLoop(() => {
         this.scene.render();
+        this.scene.debugLayer.show();
       });
       // The model came in a little dark so lets add some extra light
       new HemisphericLight("light1", new Vector3(0, 1, 0), this.scene);
